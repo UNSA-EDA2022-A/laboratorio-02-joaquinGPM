@@ -26,7 +26,7 @@ public class Exercise1 {
         r = Math.pow(sum,2);
         boolean resultado=false;
         
-        if(r ==numero)
+        if(r ==numero && numero!=0)
         {
            if(sum*sum == numero)
            {
