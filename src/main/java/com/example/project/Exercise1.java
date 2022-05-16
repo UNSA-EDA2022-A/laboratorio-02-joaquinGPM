@@ -17,8 +17,8 @@ public class Exercise1 {
 	public boolean esCuadradoPerfecto(int numero) {
 		double num;
         double sum=0,r;
-        sum = Math.sqrt(teclado);
-        num=teclado;
+        sum = Math.sqrt(numero);
+        num=numero;
         sum = Math.round(num);
         r = Math.pow(sum,2);
      
