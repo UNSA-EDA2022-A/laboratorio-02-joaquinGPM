@@ -24,8 +24,32 @@ public class Exercise2 {
 		}
 	}
 
-	public boolean esSubconjuntoSumaExt(int a[], int suma) {
+	public boolean esSubconjuntoSumaExt(int a[], int suma) {if(a == null){
+	            return false;
+	        }
+	        int n = a.length; 
+	        boolean[][] m = new boolean[n + 1][suma + 1]; 
+	        for(int s = 0; s <= suma; s++){
+	            m[0][s] = false;
+	        }
+	        
+	        for(int i = 1; i <= n; i++){
+	        	if(a[i]==7) {
+	        		if(a[i+1]==1) {	
+	        		}
+	        		else {}
+			}	
+	            for(int s = 0; s <= suma; s++){    
+	                if(s - a[i-1] >= 0){ 
+	                    m[i][s] = (m[i-1][s] || a[i-1] == s || m[i-1][s - a[i-1]]); 
+	                } else {
+	                    m[i][s] = (m[i-1][s] || a[i-1] == s);
+	                }       
 
-		return false;
+	            }
+	            }   	 
+	        return m[n][suma];
+
+		
 	}
 }
