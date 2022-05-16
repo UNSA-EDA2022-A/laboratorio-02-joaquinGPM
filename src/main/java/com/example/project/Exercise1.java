@@ -15,7 +15,27 @@ public class Exercise1 {
 	}
 
 	public boolean esCuadradoPerfecto(int numero) {
-
-		return false;
-	}
+		
+		double num;
+        double sum=0,r;
+        
+        sum = Math.sqrt(numero);
+        
+        sum = Math.round(sum);
+       
+        r = Math.pow(sum,2);
+        boolean resultado=false;
+        
+        if(r ==numero && numero!=0)
+        {
+           if(sum*sum == numero)
+           {
+              resultado= true;
+           }
+           else {
+       		return resultado=false;}
+        }
+        
+		return resultado;
+     }
 }
