@@ -32,9 +32,9 @@ Técnicas y diseño de algoritmos
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">ESTRUCTURA DE DATOS Y ALGORITMOS</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA: TECNICAS Y DISEÑO DE ALGORITMOS</td><td colspan="5">Ajax y NodeJS</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA: </td><td colspan="5">TECNICAS Y DISEÑO DE ALGORITMOS</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA: LABORATORIO 02</td><td>03</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA: </td><td>LABORATORIO 02</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
 <td>FECHA DE PRESENTACION:</td><td>15-May-2022</td><td>HORA DE PRESENTACION:</td><td colspan="3">00:00</td>
